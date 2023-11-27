@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Report</title>
+  </head>
+  <body>
+    <h1>Student Report</h1>
+
+    <form method="post" action="how.php">
+            Student ID: <input type="text" name="sid"> </br></br>
+            Student Name: <input type="text" name="sn"> </br> </br>
+           
+       Student Age:<label for="min_age">Minimum</label>
+      <input type="number" name="min_age" id="min_age" required />
+
+      <label for="max_age">Maximum</label>
+      <input type="number" name="max_age" id="max_age" required />
+
+      <input type="submit" name="submit" value="Generate Report" />
+    </form>
+  </body>
+</html>
+        
