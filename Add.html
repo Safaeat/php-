@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script>
+      function result() {
+        var a = document.cal.ivalue.value;
+        var b = document.cal.jvalue.value;
+        var c = parseFloat(a) + parseFloat(b);
+        document.write(c);
+      }
+    </script>
+  </head>
+  <body>
+    <form name="cal" action="" method="post">
+      Enter Number-1:<input type="textfield" name="ivalue" id="" /> Enter
+      Number-2:<input type="textfield" name="jvalue" id="" />
+      <button type="submit" name="btn" onclick="result()">Submit</button>
+    </form>
+  </body>
+</html>
