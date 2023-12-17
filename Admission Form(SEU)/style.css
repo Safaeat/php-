@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.head {
+  text-align: center;
+}
+.btn {
+  height: 30px;
+  width: 1190px;
+  text-align: right;
+
+  margin-bottom: 30px;
+}
+.button {
+  height: 30px;
+  width: 70px;
+  background-color: green;
+  color: aliceblue;
+  border-radius: 30%;
+  float: right;
+}
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: aqua;
+  background-color: black;
+}
