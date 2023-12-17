@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SEU Admission</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <img src="img.png" alt="#" /><br />
+
+      <span
+        >Permanent Campus: 251/A & 252, Tejgaon I/A, Dhaka 1208, Bangladesh<br />
+        Tel: 8878502, 8878497, 8870474, 8870475, 8870476, Ext: 114, 110<br />
+        Admission Oce: House 64, Road 18, Block B, Banani, Dhaka 1213,
+        Bangladesh<br />
+        Tel: 55034135, 55034125-28, 55034192, Cell: 01766348518, 01911781327,
+        01632261081<br />
+        Web: www.seu.edu.bd, Facebook: facebook.com/seu.ocial.info
+      </span>
+
+      <h2>Admission Form</h2>
+    </div>
+
+    <form name="reg" action="save.php" method="post">
+      Code: <input type="number" name="cid" /><br /><br />
+      Student ID: <input type="number" name="sid" required /><br /><br />
+      <p>
+        Please fill up the form in <b>BLOCK LETTERS</b>. Provide information
+        exactly as appeared in your SSC/O' Level/equivalent certificate.
+      </p>
+      <br />
+      Name of the Program: <input type="text" name="pro" required /><br /><br />
+      <label for="session">Application for admission in:</label>
+      <select name="session" id="session">
+        <option value="Fall">Fall</option>
+        <option value="Summer">Summer</option>
+        <option value="Spring">Spring</option></select
+      ><br /><br />
+
+      <h3>A. PERSONAL INFORMATION</h3>
+      <br />
+      <b>1. Name of the Student:</b>
+      <input type="text" name="sn" required /><br /><br />
+      <b>2. Date of Birth:</b><input type="date" name="sa" required /> Place of
+      Birth:<input type="text" name="Place" /> Citizenship/Nationality:
+      <input type="text" name="nation1" /> NID/Birth Certificate/Passport:
+      <input type="number" name="nid1" /><br /><br />
+
+      <label for="gender"><b>3. Gender:</b></label>
+      <select name="Gender" id="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option></select
+      ><br /><br />
+      <b>4. Father's Name:</b> <input type="text" name="father" /> Passport/NID:
+      <input type="number" name="fnid" required />
+      Occupation: <input type="text" name="Occupation" required /> Designation:
+      <input type="text" name="Designation" /> Tel/Mob:
+      <input type="number" name="fmob" required /><br />
+      <br />
+      <b>5. Mother's Name:</b>
+      <input type="text" name="mother" required /> Passport/NID:
+      <input type="number" name="mnid" required />
+      Occupation: <input type="text" name="Occupationm" required /> Designation:
+      <input type="text" name="Designationm" /> Tel/Mob:
+      <input type="number" name="mmob" required /><br />
+      <br />
+      <b>6. Guardian's Name (if different from parents)</b><br /><br />
+      Name: <input type="text" name="diff" /> Passport/NID:
+      <input type="number" name="dnid" required />
+      Occupation: <input type="text" name="Occupationd" required /> Designation:
+      <input type="text" name="Designationd" />
+      Tel/Mob: <input type="number" name="dmob" required /><br />
+      <br />
+      <b>7. Permanent Address</b><br /><br />
+      Village/House no: <input type="text" name="village" required /> District:
+      <input type="text" name="district" required /> Post Office:
+      <input type="text" name="post_off" required /> Police Station:
+      <input type="text" name="Police" required /><br />
+      <br />
+
+      <b>8. Present Address</b><br /><br />
+      Village/House no: <input type="text" name="villagep" required /> District:
+      <input type="text" name="districtp" required /> Post Office:
+      <input type="text" name="post_offp" required /> Police Station:
+      <input type="text" name="Policep" required /><br />
+      <br />
+
+      <b>9. Student's Tel/Mob:</b
+      ><input type="number" name="smob" required /> E-mail:
+      <input type="email" name="email" /><br /><br />
+
+      <b
+        >10. Monthly income of parents/guardian/self who will bear your
+        educational expenses:</b
+      ><input type="number" name="money" /><br /><br />
+      <b>11. Person to be notified in case of emergency:</b
+      ><input type="text" name="ename" required /> Relationship:
+      <input type="text" name="rname" required /> Address:
+      <input type="text" name="eaddress" /> Tel/Mob:
+      <input type="number" name="emob" required /><br /><br />
+
+      <h3>B. EDUCATIONAL INFORMATION</h3>
+      <br />
+      <h4>1. SSC/O' Level/Equivalent</h4>
+      Name of the Institution: <input type="text" name="sname" required /> Roll
+      No: <input type="number" name="roll" required /> GPA:
+      <input type="number" name="gpa" required /> Group:
+      <input type="text" name="Group" required /><br />
+      Board:<input type="text" name="Board" required /> Year:
+      <input type="number" name="Year" required /><br /><br />
+
+      <h4>1. HSC/A' Level/Equivalent</h4>
+      Name of the Institution: <input type="text" name="hname" required /> Roll
+      No: <input type="number" name="hroll" required /> GPA:
+      <input type="number" name="hgpa" required /> Group:
+      <input type="text" name="hGroup" required /><br />
+      Board:<input type="text" name="hBoard" required /> Year:
+      <input type="number" name="hYear" required /><br /><br />
+
+      <input type="submit" name="sb" class="button" value="submit" />
+    </form>
+    <footer class="footer">
+      <p>Made with &hearts; by our Group.</p>
+      <br />
+      <p>Safaeat Molla & Nazmul Hasan</p>
+      <br />
+      <p>ID: 20200000000029 & 2020000000099</p>
+    </footer>
+  </body>
+</html>
